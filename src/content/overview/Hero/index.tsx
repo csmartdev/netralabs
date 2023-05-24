@@ -81,37 +81,32 @@ function Hero() {
       >
         <Grid item md={10} lg={8} mx="auto">
           <LabelWrapper color="success">Version 2.0.0</LabelWrapper>
-          <TypographyH1 sx={{ mb: 2 }} variant="h1">
-            NetraLabs
-          </TypographyH1>
           <TypographyH2
             sx={{ lineHeight: 1.5, pb: 4 }}
             variant="h4"
             color="text.secondary"
             fontWeight="normal"
           >
-            NetraLabs is a website by NetraScale which will be used for hosting
-            hackathons where university students and IT professionals around the
-            world can collaborate in blended, cross-functional teams.
+            Build Valued Digital Connections
           </TypographyH2>
+          <TypographyH1 sx={{ mb: 2 }} variant="h1">
+            Be future-proof and future-ready.
+          </TypographyH1>
+          <Button
+            component={RouterLink}
+            to="/register"
+            size="large"
+            variant="contained"
+          >
+            Register
+          </Button>
           <Button
             component={RouterLink}
             to="/dashboards/crypto"
             size="large"
-            variant="contained"
-          >
-            Browse Live Preview
-          </Button>
-          <Button
-            sx={{ ml: 2 }}
-            component="a"
-            target="_blank"
-            rel="noopener"
-            href="#"
-            size="large"
             variant="text"
           >
-            Key Features
+            Go Premium
           </Button>
           <Grid container spacing={3} mt={5}>
             <Grid item md={6}>
