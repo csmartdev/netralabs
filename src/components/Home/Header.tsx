@@ -66,8 +66,8 @@ const ListWrapper = styled(Box)(
 
 const HomeHeader: React.FC = () => {
   return (
-    <Container maxWidth="lg" style={{ marginBottom: 30 }}>
-      <Box>
+    <Box style={{ paddingBottom: 30 }}>
+      <Container maxWidth="lg">
         <Box
           display="flex"
           justifyContent="space-between"
@@ -82,7 +82,7 @@ const HomeHeader: React.FC = () => {
             <PersonOutline />
           </IconButton>
         </Box>
-      </Box>
+      </Container>
       <ListWrapper
         sx={{
           display: {
@@ -127,9 +127,42 @@ const HomeHeader: React.FC = () => {
               primary="Jobs"
             />
           </ListItem>
+          <ListItem
+            classes={{ root: 'MuiListItem-indicators' }}
+            button
+            component={NavLink}
+            to="/software"
+          >
+            <ListItemText
+              primaryTypographyProps={{ noWrap: true }}
+              primary="Software"
+            />
+          </ListItem>
+          <ListItem
+            classes={{ root: 'MuiListItem-indicators' }}
+            button
+            component={NavLink}
+            to="/traning"
+          >
+            <ListItemText
+              primaryTypographyProps={{ noWrap: true }}
+              primary="Training"
+            />
+          </ListItem>
+          <ListItem
+            classes={{ root: 'MuiListItem-indicators' }}
+            button
+            component={NavLink}
+            to="/faq"
+          >
+            <ListItemText
+              primaryTypographyProps={{ noWrap: true }}
+              primary="FAQ"
+            />
+          </ListItem>
         </List>
       </ListWrapper>
-    </Container>
+    </Box>
   );
 };
 

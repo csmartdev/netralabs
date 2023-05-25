@@ -44,7 +44,7 @@ function Register() {
               />
             </ImageWrapper>
             <Typography variant="h4" textAlign="center">
-              <Box sx={{ pb: 2 }}>
+              <Box sx={{ p: 2 }}>
                 <b>I am an IT Professional, Student, or Researcher</b>
               </Box>
               <Button
@@ -67,10 +67,10 @@ function Register() {
               />
             </ImageWrapper>
             <Typography variant="h4" textAlign="center">
-              <Box sx={{ pb: 2 }}>
-                <Typography>
-                  <b>I am a Business</b>
-                </Typography>
+              <Box sx={{ p: 2 }}>
+                <b>I am a Business</b>
+              </Box>
+              <Box>
                 <Typography component="span" variant="subtitle2">
                   Software Vendors, Tech Training Companies, and IT Recruiters
                 </Typography>

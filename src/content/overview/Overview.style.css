@@ -1,0 +1,38 @@
+.hero_banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+
+  min-height: 56rem;
+  margin-bottom: 30px;
+}
+
+.banner__media {
+  background-image: url('https://cdn.shopify.com/s/files/1/0689/5645/5188/files/04.png?v=1679249635&width=3000');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* display: block;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; */
+}
+
+.banner__media img {
+  object-fit: cover;
+  object-position: center center;
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  display: block;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}

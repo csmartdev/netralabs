@@ -2,7 +2,16 @@ import { Box } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 
 import { styled } from '@mui/material/styles';
-import Hero from './Hero';
+import {
+  HomeBanner1,
+  HomeBanner2,
+  HomeHero1,
+  HomeHero2,
+  HomeHero3,
+  HomeHero4
+} from './Hero';
+
+import './Overview.style.css';
 
 const OverviewWrapper = styled(Box)(
   () => `
@@ -19,9 +28,12 @@ function Overview() {
       <Helmet>
         <title>NetraLabs</title>
       </Helmet>
-      <Box p={10}>
-        <Hero />
-      </Box>
+      <HomeBanner1 />
+      <HomeHero1 />
+      <HomeHero2 />
+      <HomeBanner2 />
+      <HomeHero3 />
+      <HomeHero4 />
     </OverviewWrapper>
   );
 }
