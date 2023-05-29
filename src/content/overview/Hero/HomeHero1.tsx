@@ -24,7 +24,7 @@ const ImageWrapper = styled(Box)(
 `
 );
 
-const homeImg1 = `/static/images/overview/home1.jpeg`;
+const homeImg1 = `/static/images/overview/s1.jpg`;
 
 export const HomeHero1 = () => {
   return (

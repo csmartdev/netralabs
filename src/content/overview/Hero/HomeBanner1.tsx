@@ -15,7 +15,7 @@ const TypographyH2 = styled(Typography)(
 `
 );
 
-const bannerImg1 = `/static/images/overview/banner1.webp`;
+const bannerImg1 = `/static/images/overview/b1.jpg`;
 
 export const HomeBanner1 = () => {
   const navigate = useNavigate();

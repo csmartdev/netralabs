@@ -7,7 +7,7 @@ const TypographyH1 = styled(Typography)(
 `
 );
 
-const bannerImg2 = `/static/images/overview/banner2.webp`;
+const bannerImg2 = `/static/images/overview/b2.jpg`;
 
 export const HomeBanner2 = () => {
   return (

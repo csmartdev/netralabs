@@ -23,7 +23,7 @@ const ImageWrapper = styled(Box)(
 `
 );
 
-const homeImg4 = `/static/images/overview/home4.webp`;
+const homeImg4 = `/static/images/overview/s4.jpg`;
 
 const desc1 = `Promotional Opportunities`;
 const subText1 = [`Student Network`, `IT Professional Network`];

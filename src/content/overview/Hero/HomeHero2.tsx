@@ -23,7 +23,7 @@ const ImageWrapper = styled(Box)(
 `
 );
 
-const homeImg2 = `/static/images/overview/home2.webp`;
+const homeImg2 = `/static/images/overview/s2.jpg`;
 
 const home_desc2_subs = [
   `NetraChain is a hub that nurtures digital innovation, continuous learning and career opportunities for tech professionals worldwide.`,
